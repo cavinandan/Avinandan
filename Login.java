@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 
 public class Login extends BaseClass{
-	//Biswarup 
+	
 	public void Login(String URL, String UserName, String Password) {
 		// TODO Auto-generated method stub
 		super.initDriver();
@@ -19,7 +19,7 @@ public class Login extends BaseClass{
 		String date1= dateFormat.format(date);	  
 		System.out.println(date1);
 		  
-		
+		//Comment removed
 		  boolean result = true; 
 		  while (result) { try {
 			  String date2= dateFormat.format(date);	  
